@@ -43,6 +43,7 @@ pub mod seq {
   pub const ESC: &str = "\x1b";
   pub const CLEAR: &str = "\x1bc";
   pub const RESET: &str = "\x1b[0m";
+  pub const BOLD: &str = "\x1b[1m";
   pub const CURSOR_HIDE: &str = "\x1b[?25l";
   pub const CURSOR_SHOW: &str = "\x1b[?25h";
   pub const CURSOR_START: &str = "\x1b[1;1H";
